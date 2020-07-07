@@ -52,7 +52,8 @@
 }
 @font-face {
   font-family: 'Montserrat-SemiBold'; /* Имя шрифта */
-  src: url('./fonts/Montserrat-SemiBold.ttf'); /* Путь к файлу со шрифтом */
+
+  src: url('../fonts/Montserrat-SemiBold.ttf'); /* Путь к файлу со шрифтом */
 }
 @font-face {
   font-family: 'Montserrat-SemiBoldItalic'; /* Имя шрифта */
@@ -66,3 +67,8 @@
   font-family: 'Montserrat-ThinItalic'; /* Имя шрифта */
   src: url('../fonts/Montserrat-Thin.ttf'); /* Путь к файлу со шрифтом */
 }
+@font-face {
+  font-family: 'Tahoma-Bold'; /* Имя шрифта */
+  src: url('../fonts/Tahoma-Bold.ttf'); /* Путь к файлу со шрифтом */
+}
+
