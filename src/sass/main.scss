@@ -1,10 +1,10 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
-@import "fonts.scss";
-@import "normalize.scss";
-@import "base.scss";
-@import "header.scss";
-@import "./components/hero.scss";
-@import "our-program.scss";
+@import 'conteiner.scss';
+@import 'fonts.scss';
+@import 'normalize.scss';
+@import 'base.scss';
+@import 'header.scss';
+@import './components/hero.scss';
+@import 'our-program.scss';
