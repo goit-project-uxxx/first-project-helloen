@@ -38,7 +38,7 @@ li {
   .program-title {
     margin-top: 25px;
     font-size: 20px;
-    font-family: "Montserrat-ExtraBold";
+    font-family: 'Montserrat-ExtraBold';
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.65;
@@ -48,7 +48,7 @@ li {
 
   .program__header-semester {
     font-size: 13px;
-    font-family: "Montserrat-Medium";
+    font-family: 'Montserrat-Medium';
     color: rgb(255, 107, 8);
     line-height: 2.244;
     margin-left: 63px;
@@ -56,7 +56,7 @@ li {
     letter-spacing: 0.05em;
 
     &::before {
-      content: "–—";
+      content: '–—';
       margin-right: 10px;
       font-size: 16px;
     }
@@ -67,7 +67,7 @@ li {
     margin-top: 6px;
 
     &:before {
-      content: "";
+      content: '';
       height: calc(100% - 110px);
       width: 2px;
       background-color: #546264;
@@ -82,7 +82,7 @@ li {
     width: 120px;
     position: relative;
     font-size: 15px;
-    font-family: "Montserrat-Bold";
+    font-family: 'Montserrat-Bold';
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -91,7 +91,7 @@ li {
     margin-left: 30px;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       margin-right: 20px;
       width: 10px;
@@ -107,7 +107,7 @@ li {
   .semester__item {
     width: 152px;
     font-size: 11px;
-    font-family: "Montserrat-Regular";
+    font-family: 'Montserrat-Regular';
     color: rgba(133, 133, 133, 0.502);
     line-height: 1.818;
     text-align: left;
@@ -117,7 +117,12 @@ li {
   .program-picture {
     width: 143px;
     height: 180px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../images/pic_mobile.jpg);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(../images/pic_mobile.jpg);
     position: absolute;
     right: calc(50% - 160px);
     top: 1417px;
@@ -128,8 +133,12 @@ li {
   }
   @media (min-resolution: 192dpi) {
     .our_program__line {
-      background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%),
-        url("../images/pic_mobile@2x.jpg") no-repeat;
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 0.5) 50%
+        ),
+        url('../images/pic_mobile@2x.jpg') no-repeat;
     }
   }
 }
@@ -165,7 +174,7 @@ li {
     width: 422px;
     position: relative;
     font-size: 15px;
-    font-family: "Montserrat-Bold";
+    font-family: 'Montserrat-Bold';
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
@@ -174,7 +183,7 @@ li {
     // margin-left: 19px;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       margin-right: 20px;
       width: 10px;
@@ -203,7 +212,11 @@ li {
   .program-picture {
     width: 400px;
     height: 277px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
       url(../images/pic_tablet.jpg) no-repeat;
     position: absolute;
     background-size: contain;
@@ -212,8 +225,12 @@ li {
   }
   @media (min-resolution: 192dpi) {
     .program-picture {
-      background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-        url("../images/pic_tablet@2x.jpg") no-repeat;
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        ),
+        url('../images/pic_tablet@2x.jpg') no-repeat;
     }
   }
 }
@@ -243,9 +260,9 @@ li {
     text-align: left;
   }
 
-  .our_program__conteiner {
+  .our_program__container {
     width: 100%;
-    max-width: 1500px;
+    // max-width: 1500px;
     margin: 0 auto;
   }
 
@@ -300,7 +317,7 @@ li {
     font-size: 19px;
     line-height: 1.618;
   }
-  
+
   .semester__item--min-font {
     font-size: 15px;
   }
@@ -318,7 +335,11 @@ li {
   .program-picture {
     width: 550px;
     height: 350px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
       url(../images/pic_1280.jpg) no-repeat;
     position: absolute;
     left: calc(50% - 650px);
@@ -327,8 +348,12 @@ li {
   }
   @media (min-resolution: 192dpi) {
     .program-picture {
-      background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-        url("../images/pic_1280@2x.jpg") no-repeat;
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        ),
+        url('../images/pic_1280@2x.jpg') no-repeat;
     }
   }
 }
@@ -371,7 +396,7 @@ li {
   .semester__list {
     padding-left: 97px;
   }
-  
+
   .program__header-semester {
     padding-left: 97px;
     padding-top: 6px;
@@ -380,7 +405,11 @@ li {
   .program-picture {
     width: 544px;
     height: 376px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
       url(../images/pic_1680.jpg) no-repeat;
     position: absolute;
     background-size: contain;
@@ -392,7 +421,11 @@ li {
   .program-picture {
     width: 670px;
     height: 463px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
       url(../images/pic_1680.jpg) no-repeat;
     position: absolute;
     background-size: contain;
@@ -401,8 +434,12 @@ li {
   }
   @media (min-resolution: 192dpi) {
     .program-picture {
-      background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-        url("../images/pic_1680@2x.jpg") no-repeat;
+      background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(0, 0, 0, 0.5) 100%
+        ),
+        url('../images/pic_1680@2x.jpg') no-repeat;
     }
   }
 }
