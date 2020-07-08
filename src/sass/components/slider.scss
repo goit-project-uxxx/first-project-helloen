@@ -240,13 +240,10 @@
     display: inline;
   }
 
-  .slide-client-photo {
-
-    &::after {
-      content: '';
-      top: 45%;
-      left: 50%;
-    }
+  .slide-client-photo::after {
+    content: '';
+    top: 45%;
+    left: 50%;
   }
 
   #slide1:checked ~ #controls label:nth-child(2),
