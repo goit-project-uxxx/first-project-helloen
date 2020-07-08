@@ -223,6 +223,7 @@ top: 100px;
 .problems {
   background-color: black;
   padding: 320px 0;
+  position: relative;
 }
 .colortext {
    color: #ff6b08;
@@ -296,6 +297,7 @@ font-family: "Montserrat", sans-serif;
 .problems {
     background: url("../../images/fire-table.png") #000;
       padding: 170px 0;
+      position: relative;
     }
 .colortext {
        color: #ff6b08;
@@ -307,7 +309,8 @@ font-family: "Montserrat", sans-serif;
     line-height: 45px;
     font-family: "Montserrat", sans-serif;
     background: transparent;
-    margin: 0 278px 0 40px;
+    margin: 0 auto;
+    width: 688px;
     }
 .problems_icon {
   color: #fff;
@@ -315,8 +318,9 @@ font-family: "Montserrat", sans-serif;
   height: 30%;
 }
 .problems_container {
-     margin: 0px 40px 0px ;
+     margin: 0 auto ;
     background-color: #fff;
+    width: 688px;
     }
 
 .problems__list {
@@ -371,6 +375,7 @@ font-family: "Montserrat", sans-serif;
   .problems {
       background: url("../../images/fire-desk1280.png") #000;
         padding: 260px 0;
+        position: relative;
       }
   .colortext {
          color: #ff6b08;
@@ -382,16 +387,19 @@ font-family: "Montserrat", sans-serif;
       line-height: 45px;
       font-family: "Montserrat", sans-serif;
       background: transparent;
-      margin: -40px 515px 30px 35px;
+      margin: 0 auto;
+      width: 1210px;
       }
+
   .problems_icon {
     color: #fff;
     width: 30%;
     height: 30%;
   }
   .problems_container {
-       margin: 0px 35px 0px ;
+       margin: 0 auto;
       background-color: #fff;
+      width: 1210px;
       }
 
   .problems__list {
@@ -446,6 +454,7 @@ font-family: "Montserrat", sans-serif;
 .problems {
     background: url("../../images/fire-desk1680.png") #000;
       padding: 260px 0;
+      position: relative;
     }
 .colortext {
        color: #ff6b08;
@@ -457,7 +466,8 @@ font-family: "Montserrat", sans-serif;
     line-height: 50px;
     font-family: "Montserrat", sans-serif;
     background: transparent;
-    margin: -40px 690px 30px 155px;
+    margin: 0 auto;
+    width: 1340px;
     }
 .problems_icon {
   color: #fff;
@@ -465,8 +475,9 @@ font-family: "Montserrat", sans-serif;
   height: 30%;
 }
 .problems_container {
-     margin: 0px 188px 0px 155px;
+     margin: 0 auto;
     background-color: #fff;
+    width: 1340px;
     }
 
 .problems__list {
