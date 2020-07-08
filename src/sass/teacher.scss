@@ -1,0 +1,191 @@
+
+   .teacher {
+    position:relative;
+    width:100%;
+    padding: 246px 50px 20px 20px;
+    margin:0 auto;
+    font-family: "Montserrat",sans-serif ;
+   }
+   .teacher__box {
+    width: 100%;
+    margin: 0 auto;
+   }
+   .teacher__title {
+   font-weight:800;
+   font-size: 20px;
+   margin: 0 auto; 
+   margin-bottom: 23px;
+   }
+   .teacher-photo__box {
+    display:flex;
+    align-items: flex-start;
+   }
+   .teacher__photo {
+    border-style:none;
+    display:block;
+    max-width:100%;
+    height:auto;
+   }
+
+   .teacher__name {
+    font-weight:800;
+    border-bottom: 1px solid #858585;
+    line-height: 29px;
+    font-size: 16px;
+   }
+   .skill-list {
+    padding:0;
+   }
+   .skill-list:first-child {
+    letter-spacing:7px;
+   }
+   .skill-list__item {
+    display:flex;
+    align-items:flex-start;
+   }
+   .skill-list__item:not(:last-child) {
+    margin-bottom: 24px;
+   }
+   .skill-list__description {
+    padding-left: 20px;
+    font-size: 13px;
+    color:#111517;
+    font-weight:600;
+    line-height:20px;
+    margin:0;
+   }
+   .skill-list__img {
+    width:18px;
+    height:18px;
+    fill:#ff6b08;
+   }
+   .teacher-description__box {
+    position:relative;
+    padding-top: 8px;
+    color :#858585;
+   }
+   .teacher-description__box::before {
+      content: "";
+      width: 25px;
+      height: 2px;
+      position: absolute;
+      background-color: #ff6b08;
+      top: 0;
+  }
+   //.teacher-description {
+   // margin-bottom: 24px;
+  // }
+   .teacher__link {
+    text-decoration:underline;
+    cursor:pointer;
+    color:#ff6b08;
+   }
+   .teacher-description,
+   .teacher__link {
+    font-size: 11px;
+    line-height: 20px;
+   }
+   @media (min-width:768px){
+      .teacher{
+         padding: 232px 40px 60px 40px;
+      }
+      .teacher__box{
+         display:flex;
+         max-width: 718px;
+         align-items: flex-start;
+      }
+      .teacher__title{
+         font-size: 26px;
+      }
+      .teacher-photo__box{
+         margin-right: 46px;
+      }
+      .teacher__name {
+         margin: 0 auto;
+         padding-top: 0;
+         padding-bottom: 14px;
+         font-size: 20px;
+         line-height: unset;
+        }
+        .skill-list__item:not(:last-child){
+           margin-bottom: 14px;
+        }
+        .teacher-description__box::before{
+           top: 10;
+        }
+        .teacher-description__box{
+           padding-top: 5px;
+        }
+        .teacher__link{
+           letter-spacing: 1px;
+        }
+   }
+   @media (min-width:1280px) {
+      .teacher{
+         padding: 86px 33px 94px 33px;
+      }
+      .teacher__box{
+         max-width: 1210px;
+      }
+      .teacher__title{
+         font-size: 42px;
+         margin-bottom: 52px;
+      }
+      .teacher-photo__box{
+         margin-right: 88px;
+      }
+      .teacher__name{
+         padding-bottom: 14px;
+         font-size: 29px;
+      }
+      .skill-list{
+         max-width: 450px;
+         margin-bottom: 26px;
+      }
+      .skill-list__item:not(:last-child){
+         margin-bottom: 21px;
+      }
+      .skill-list__description{
+         line-height: 29px;
+         font-size: 17px;
+      }
+      .teacher-description__box{
+         padding-top: 22px;
+      }
+      .teacher-description{
+         font-size: 17px;
+         line-height: 29px;
+         letter-spacing: 1px;
+      }
+      .teacher__link{
+         font-size: 17px;
+         line-height: 29px;
+         letter-spacing: 1.5px;
+      }
+   }
+   @media (min-width:1680px){
+      .teacher{
+         padding: 311px 182px 150px 258px;
+      }
+      .teacher__title{
+         font-size: 46px;
+         margin-bottom: 64px;
+         letter-spacing: 1.5px;
+      }
+      .teacher__name{
+         padding-bottom: 12px;
+         line-height: 29px;
+         letter-spacing: 1px;
+      }
+      .skill-list{
+         margin-bottom: 27px;
+         margin-top: 31px;
+      }
+      .skill-list__item:not(:last-child){
+         margin-bottom: 13px;
+      }
+      .teacher-description__box{
+         padding-top: 13px;
+      }
+   }
+   

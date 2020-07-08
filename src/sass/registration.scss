@@ -1,0 +1,137 @@
+
+.registration {
+background:#111517 url(../images/layer.png) no-repeat 50%;
+padding: 60px 0;
+background-size: cover;
+text-align: center;
+font-family: 'Montserrat',sans-serif;
+}
+.registration__box{
+padding: 0 15px;
+margin: 0 auto;
+max-width: 320px;
+}
+.registration__title {
+font-size: 14px;
+line-height: 26px;
+color: #fff;
+font-weight: 800;
+margin: 0 22px;
+letter-spacing: .7px;
+}
+.registration__description {
+padding: 30px 0;
+color: #fff;
+font-size: 11px;
+line-height: 20px;
+font-weight: 600;
+margin: 0 14px;
+}
+.attention-text{
+ color:#ff6b08;
+}
+
+.registration-form__input-name {
+height: 50px;
+background: none;
+border: 1px solid #fff;
+color: #fff;
+font-weight: 500;
+font-size: 13px;
+padding-left: 20px;
+width: 100%;
+margin-bottom: 20px;
+}
+.registration-form__input-tel {
+height: 50px;
+background: none;
+border: 1px solid #fff;
+color: #fff;
+font-weight: 500;
+font-size: 13px;
+padding-left: 20px;
+width: 100%;
+margin-bottom: 55px;
+}
+.registration-form__button {
+border: 0;
+color: #fff;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 11px;
+padding: 20px 15px;
+cursor: pointer;
+position: relative;
+z-index: 1;
+background-color:#ff6b08;
+}
+.registration-form__button:hover {
+ box-shadow:0 0 14px 0 rgba(0,0,0,.75);
+}
+.registration-form__input:focus:valid {
+    box-shadow: none;
+  }
+  .registration-form__input:focus:invalid {
+    box-shadow:1px 1px 10px 1px #ff6b08;
+  }
+  @media (min-width: 768px) {
+    .registration {
+        background:#111517 url(../images/layer.png) no-repeat 100%;
+    }
+    .registration__box {
+        padding: 0 40px;
+        max-width: 768px;
+        padding: 0 40px;
+    }
+    .registration__title{
+        font-size: 22px;
+        line-height: 38px;
+    }
+  .registration__description{
+    font-size: 15px;
+  }
+  .registration-form__input-name,
+  .registration-form__input-tel{
+      width: 400px;
+  }
+} 
+  @media (min-width: 1280px) {
+    .registration {
+        background: url(../images/layer_1280.jpg);
+    }
+    .registration__box {    
+        max-width: 1280px;
+        padding: 0 35px;
+  }
+  .registration__title{
+    font-size: 37px;
+    line-height: 50px;
+  }
+  .registration__description{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .registration-form__input-name,
+  .registration-form__input-tel{
+      width: 625px;
+}
+.registration-form__input-tel{
+    margin-bottom: 30px;
+}
+.registration-form__button{
+    font-size: 14px;
+    }
+}
+  @media (min-width: 1680px) {
+    .registration {
+        background-image: url(../images/layer_1680.jpg);
+    }
+    .registration__box {
+        max-width: 1340px;
+        padding: 0;
+    }
+    .registration__description{
+        font-size: 25px;
+        line-height: 37px;
+    } 
+}
