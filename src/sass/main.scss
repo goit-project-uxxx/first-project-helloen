@@ -2,11 +2,10 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'fonts.scss';
-@import 'normalize.scss';
-@import 'base.scss';
-
-@import 'components/container.scss';
-@import 'header.scss';
-@import './components/hero.scss';
+@import "fonts.scss";
+@import "normalize.scss";
+@import "base.scss";
+@import "header.scss";
+@import "components/hero.scss";
+@import "our-program.scss";
 @import 'components/slider.scss';
