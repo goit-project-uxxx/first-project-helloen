@@ -66,13 +66,13 @@ li {
       width: 2px;
       background-color: #546264;
       position: absolute;
-      left: calc(50% - 78px);
+      left: calc(50% - 79px);
       top: 15px;
       z-index: 5;
     }
   }
   .program__header-item {
-    width: 110px;
+    width: 120px;
     position: relative;
     font-size: 15px;
     font-family: "Montserrat-Bold";
@@ -81,7 +81,7 @@ li {
     text-transform: uppercase;
     line-height: 1.944;
     letter-spacing: 0.1em;
-    margin-left: 19px;
+    margin-left: 30px;
 
     &::before {
       content: "";
@@ -89,7 +89,7 @@ li {
       margin-right: 20px;
       width: 10px;
       height: 10px;
-      left: -37px;
+      left: -38px;
       top: calc(50% - 5px);
       border-radius: 50%;
       background-color: #ff6b08;
@@ -143,7 +143,7 @@ li {
     margin-left: 0;
 
     &:before {
-      left: calc(50% - 253px);
+      left: calc(50% - 249px);
     }
   }
   .semester__item {
@@ -244,10 +244,10 @@ li {
     width: 100%;
   }
   .program__header-item {
-    width: 97%;
+    width: 71%;
     font-size: 19px;
     padding-top: 14px;
-    padding-left: 39px;
+    padding-left: 0px;
     &::after {
       display: none;
     }
@@ -255,7 +255,7 @@ li {
       margin-right: 0;
       width: 17px;
       height: 17px;
-      left: 36px;
+      left: -3px;
       top: calc(50% - 55px);
       border-radius: 50%;
       background-color: #ff6b08;
@@ -264,6 +264,9 @@ li {
   }
   .program__header-semester {
     font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
     padding-left: 55px;
     padding-top: 18px;
     margin: 0;
@@ -317,6 +320,7 @@ li {
   }
 
   .program__header-item {
+    width: 100%;
     padding-top: 0;
     padding-left: 76px;
     display: block;
