@@ -1,18 +1,13 @@
 @media (min-width: 320px) {
-    .container {
-        max-width: 320px;
-        margin: 0 auto;
-    }
-
     .hero {
-        padding: 50px 20px 50px 20px;
         background: url("../../images/hero_bg.svg") no-repeat;
         background-position: -105px -418px;
         background-size: 269% 121%;
+        margin-bottom: 88px;
     }
 
     .hero__inner {
-        margin-bottom: 88px;
+        padding: 50px 0px;
     }
 
     .hero__image {
@@ -116,7 +111,7 @@
         }
     }
 
-    .icon {
+    .hero__icon {
         fill: #ff6b08;
     }
 
@@ -137,11 +132,8 @@
 }
 
 @media (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        margin: 0 auto;
-    }
     .hero {
+        margin: 0 auto;
         padding: 62px 40px 52px 40px;
         background-position: -66px -298px;
         background-size: 126% 131%;
