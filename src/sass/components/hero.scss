@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
     .container {
-        min-width: 320px;
+        max-width: 320px;
         margin: 0 auto;
     }
 
@@ -137,6 +137,10 @@
 }
 
 @media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
     .hero {
         padding: 62px 40px 52px 40px;
         background-position: -66px -298px;
