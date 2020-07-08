@@ -42,9 +42,9 @@ li {
 
   .toogle_navigation {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     position: fixed;
-    top: -25px;
+    top: 0px;
     left: -100%;
     background: rgba(0, 0, 0, 0.8);
   }
@@ -120,7 +120,7 @@ li {
     font-size: 50px;
     font-family: "Montserrat-Thin";
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     color: #fff;
     border: none;
@@ -209,9 +209,7 @@ li {
       outline: none;
     }
   }
-  .toogle_navigation {
-    top: -35px;
-  }
+
   .menu_header {
     margin-top: 32px;
     padding: 0px 6% 0 6.7%;
