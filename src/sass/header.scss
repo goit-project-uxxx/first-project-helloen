@@ -41,18 +41,18 @@ li {
   }
 
   .toogle_navigation {
-    width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: absolute;
+    position: fixed;
     top: -25px;
     left: -100%;
     background: rgba(0, 0, 0, 0.8);
   }
   .toogle_navigation--move {
-    position: absolute;
+    position: fixed;
     left: 0;
+    z-index: 100;
     transition: left 0.6s cubic-bezier(0, 1.94, 1, 1.12);
-    animation-duration: alternative;
   }
   .toggleBtn_hiden {
     opacity: 0;
@@ -70,7 +70,7 @@ li {
     align-items: center;
   }
   .menu_link {
-    font-family: 'Montserrat-Bold';
+    font-family: "Montserrat-Bold";
     color: #fff;
     text-decoration: none;
     transition: color 0.2s linear;
@@ -99,7 +99,7 @@ li {
     height: 50px;
     background-color: transparent;
     border: 2px solid #ff6b08;
-    font-family: 'Montserrat-SemiBold';
+    font-family: "Montserrat-SemiBold";
     color: #ff6b08;
     text-transform: uppercase;
     font-size: 12px;
@@ -118,7 +118,7 @@ li {
     width: 30px;
     height: 30px;
     font-size: 50px;
-    font-family: 'Montserrat-Thin';
+    font-family: "Montserrat-Thin";
     display: flex;
     justify-content: start;
     align-items: center;
@@ -129,7 +129,7 @@ li {
       outline: none;
     }
     &:active {
-      font-family: 'Montserrat-Medium';
+      font-family: "Montserrat-Medium";
     }
   }
   .menu_logo {
@@ -154,7 +154,7 @@ li {
   .desktop-menu_link {
     text-decoration: none;
     font-size: 12px;
-    font-family: 'Tahoma';
+    font-family: "Tahoma";
     color: rgb(185, 185, 185);
     font-weight: bold;
     text-transform: uppercase;
@@ -195,7 +195,7 @@ li {
     border: 2px solid #ff6b08;
     background-color: transparent;
     font-size: 12px;
-    font-family: 'Tahoma';
+    font-family: "Tahoma";
     color: rgb(255, 107, 8);
     font-weight: bold;
     text-transform: uppercase;
