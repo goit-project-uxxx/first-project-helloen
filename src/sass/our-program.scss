@@ -17,16 +17,19 @@ li {
     background: #111517;
     position: relative;
   }
+
   .program__list {
     margin: 0 auto;
     margin-top: 24px;
     position: relative;
   }
+
   .program__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 35px;
+
     &:nth-child(2) {
       margin-bottom: 25px;
     }
@@ -51,15 +54,18 @@ li {
     margin-left: 63px;
     margin-top: 5px;
     letter-spacing: 0.05em;
+
     &::before {
       content: "–—";
       margin-right: 10px;
       font-size: 16px;
     }
   }
+
   .semester__list {
     margin-left: 61px;
     margin-top: 6px;
+
     &:before {
       content: "";
       height: calc(100% - 110px);
@@ -71,6 +77,7 @@ li {
       z-index: 5;
     }
   }
+
   .program__header-item {
     width: 120px;
     position: relative;
@@ -96,6 +103,7 @@ li {
       z-index: 10;
     }
   }
+
   .semester__item {
     width: 152px;
     font-size: 11px;
@@ -114,6 +122,7 @@ li {
     right: calc(50% - 160px);
     top: 1417px;
   }
+
   .our_program__line {
     display: none;
   }
@@ -129,6 +138,7 @@ li {
   .our_program {
     height: 1333px;
   }
+
   .program-title {
     margin-top: 37px;
     font-size: 26px;
@@ -146,6 +156,7 @@ li {
       left: calc(50% - 249px);
     }
   }
+
   .semester__item {
     margin-left: 62px;
   }
@@ -175,6 +186,7 @@ li {
       z-index: 10;
     }
   }
+
   .program__semester-list {
     display: flex;
     flex-direction: row;
@@ -187,6 +199,7 @@ li {
   .program__item {
     text-align: left;
   }
+
   .program-picture {
     width: 400px;
     height: 277px;
@@ -211,14 +224,17 @@ li {
     border-left: none;
     border-right: none;
   }
+
   .our_program {
     height: 1220px;
   }
+
   .our_program__line {
     position: absolute;
     top: 159px;
     width: 100%;
   }
+
   .program-title {
     padding-left: 2.8%;
     margin-left: 0;
@@ -226,31 +242,37 @@ li {
     color: rgb(255, 255, 255);
     text-align: left;
   }
+
   .our_program__conteiner {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
   }
+
   .program__list {
     width: 100%;
     margin-top: 56px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+
   .program__semester-list {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
   }
+
   .program__header-item {
     width: 71%;
     font-size: 19px;
     padding-top: 14px;
     padding-left: 0px;
+
     &::after {
       display: none;
     }
+
     &::before {
       margin-right: 0;
       width: 17px;
@@ -262,6 +284,7 @@ li {
       z-index: 10;
     }
   }
+
   .program__header-semester {
     font-size: 18px;
     width: 100%;
@@ -271,18 +294,22 @@ li {
     padding-top: 18px;
     margin: 0;
   }
+
   .semester__item {
     margin: 0;
     font-size: 19px;
     line-height: 1.618;
   }
+  
   .semester__item--min-font {
     font-size: 15px;
   }
+
   .semester__list {
     padding-left: 56px;
     padding-left: 55px;
     margin-top: 0;
+
     &::before {
       display: none;
     }
@@ -312,9 +339,11 @@ li {
     margin-left: 3.6%;
     letter-spacing: 0.12em;
   }
+
   .our_program__line {
     top: 258px;
   }
+
   .program__list {
     margin-top: 128px;
   }
@@ -333,17 +362,21 @@ li {
       border-radius: 50%;
       z-index: 10;
     }
+
     &:first-letter {
       font-size: 29px;
     }
   }
+
   .semester__list {
     padding-left: 97px;
   }
+  
   .program__header-semester {
     padding-left: 97px;
     padding-top: 6px;
   }
+
   .program-picture {
     width: 544px;
     height: 376px;
@@ -355,6 +388,7 @@ li {
     left: calc(50% - 655px);
     top: 559px;
   }
+
   .program-picture {
     width: 670px;
     height: 463px;
