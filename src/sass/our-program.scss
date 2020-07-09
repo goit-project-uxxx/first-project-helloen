@@ -72,14 +72,14 @@ li {
       width: 2px;
       background-color: #546264;
       position: absolute;
-      left: calc(50% - 79px);
+      left: calc(50% - 78px);
       top: 15px;
       z-index: 5;
     }
   }
 
   .program__header-item {
-    width: 120px;
+    width: 110px;
     position: relative;
     font-size: 15px;
     font-family: 'Montserrat-Bold';
@@ -88,7 +88,7 @@ li {
     text-transform: uppercase;
     line-height: 1.944;
     letter-spacing: 0.1em;
-    margin-left: 30px;
+    margin-left: 19px;
 
     &::before {
       content: '';
@@ -96,7 +96,7 @@ li {
       margin-right: 20px;
       width: 10px;
       height: 10px;
-      left: -38px;
+      left: -37px;
       top: calc(50% - 5px);
       border-radius: 50%;
       background-color: #ff6b08;
@@ -162,7 +162,7 @@ li {
     margin-left: 0;
 
     &:before {
-      left: calc(50% - 249px);
+      left: calc(50% - 253px);
     }
   }
 
@@ -235,7 +235,7 @@ li {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .our_program__line {
     display: block;
     border-left: none;
@@ -281,11 +281,15 @@ li {
   }
 
   .program__header-item {
-    width: 71%;
+    width: 97%;
     font-size: 19px;
     padding-top: 14px;
+<<<<<<< HEAD
+    padding-left: 39px;
+=======
     padding-left: 0px;
 
+>>>>>>> dev
     &::after {
       display: none;
     }
@@ -294,7 +298,7 @@ li {
       margin-right: 0;
       width: 17px;
       height: 17px;
-      left: -3px;
+      left: 36px;
       top: calc(50% - 55px);
       border-radius: 50%;
       background-color: #ff6b08;
@@ -304,9 +308,6 @@ li {
 
   .program__header-semester {
     font-size: 18px;
-    width: 100%;
-    display: flex;
-    justify-content: start;
     padding-left: 55px;
     padding-top: 18px;
     margin: 0;
@@ -374,7 +375,6 @@ li {
   }
 
   .program__header-item {
-    width: 100%;
     padding-top: 0;
     padding-left: 76px;
     display: block;
