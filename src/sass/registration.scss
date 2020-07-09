@@ -98,6 +98,7 @@ background-color:#ff6b08;
   @media (min-width: 1280px) {
     .registration {
         background: url(../images/layer_1280.jpg);
+        background-repeat: no-repeat;
     }
     .registration__box {    
         max-width: 1280px;
