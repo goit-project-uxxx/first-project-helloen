@@ -1,18 +1,13 @@
 @media (min-width: 320px) {
-    .container {
-        min-width: 320px;
-        margin: 0 auto;
-    }
-
     .hero {
-        padding: 50px 20px 50px 20px;
         background: url("../../images/hero_bg.svg") no-repeat;
         background-position: -105px -418px;
         background-size: 269% 121%;
+        margin-bottom: 88px;
     }
 
     .hero__inner {
-        margin-bottom: 88px;
+        padding: 50px 0px;
     }
 
     .hero__image {
@@ -116,7 +111,7 @@
         }
     }
 
-    .icon {
+    .hero__icon {
         fill: #ff6b08;
     }
 
@@ -138,12 +133,12 @@
 
 @media (min-width: 768px) {
     .hero {
-        padding: 62px 40px 52px 40px;
         background-position: -66px -298px;
         background-size: 126% 131%;
     }
 
     .hero__inner {
+        padding: 62px 0px 52px;
         display: flex;
         align-items: center;
         margin-bottom: 117px;
@@ -171,12 +166,12 @@
 
 @media (min-width: 1280px) {
     .hero {
-        padding: 44px 35px 52px 88px;
         background-position: -98px -413px;
         background-size: 126% 131%;
     }
 
     .hero__inner {
+        padding: 44px 0px 52px 0px;
         margin-bottom: 130px;
     }
 
@@ -256,14 +251,23 @@
 @media (min-width: 1680px) {
 
     .hero {
-        padding: 44px 35px 52px 88px;
         background-position: -98px -500px;
         background-size: 126% 131%;
     }
 
+    .hero__inner {
+        padding: 44px 0px 52px 0px;
+        margin-bottom: 130px;
+    }
+
+    .hero__image {
+        position: relative;
+    }
+    
     .hero__title {
         font-size: 58px;
         line-height: 75px;
+        width: 608px;
     }
 
     .hero__title-content {
