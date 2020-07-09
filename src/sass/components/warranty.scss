@@ -1,0 +1,155 @@
+@media (min-width: 320px) {
+    .wrapper-warranty {
+        background-color: #f1f1f1;
+        padding: 26px 0px 26px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    
+    .warranty__box {
+        margin-top: 6px;
+        margin-bottom: 26px;
+        margin-left: 6px;
+        border-left: 1px dotted #c1c1c1;
+    }
+    
+    .warranty__title {
+        margin: 0;
+        margin-bottom: 8px;
+        text-align: center;
+        font-family: "Montserrat-ExtraBold";
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 62px;
+    }
+    
+    .warranty__item {
+        position: relative;
+        padding-left: 30px;
+    
+        &::before {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            height: 18px;
+            width: 13px;
+            left: -7px;
+            background-image: url('../../images/icons/fire.svg');
+        }
+        
+        &:not(:last-child) {
+            margin-bottom: 26px;
+        }
+    }
+    
+    .warranty__item-text {
+        font-family: "Montserrat-Medium";
+        font-size: 11px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    
+    .warranty__item-decor {
+        color: #ff6b08;
+    }   
+}
+
+@media (min-width: 768px) {
+    .warranty {
+        margin-bottom: 48px;
+    }
+
+    .warranty__title {
+        margin-bottom: 16px;
+        font-size: 26px;
+    }
+
+    .wrapper-warranty {
+        padding: 34px 24px 30px 60px ;
+    }
+}
+
+@media (min-width: 1280px) {
+    .warranty {
+        margin-bottom: 86px;
+    }
+
+    .warranty__title {
+        margin-bottom: 36px;
+        font-size: 42px;
+    }
+
+    .wrapper-warranty {
+        padding: 50px 115px 50px 115px ;
+    }
+
+    .warranty__item::before {
+        content: '';
+        height: 28px;
+        width: 20px;
+        left: -10px;
+    }
+
+    .warranty__item-text {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .warranty {
+        margin-bottom: 86px;
+    }
+
+    .wrapper-warranty {
+        padding: 58px 144px 60px 92px ;
+    }
+
+    .warranty__title {
+        margin-bottom: 44px;
+        font-size: 46px;
+    }
+
+    .warranty__item-text {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 324px) {
+    .warranty__box {
+        margin-bottom: 71px;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 436px) {
+    .warranty__box {
+        margin-bottom: 54px;
+    }
+}
+
+@media (min-width: 437px) and (max-width: 892px) {
+    .warranty__box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 893px) {
+    .warranty__box {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1471px) {
+    .warranty__box {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1680px){
+    .warranty__box {
+        margin-bottom: 20px;
+    }
+}
+
