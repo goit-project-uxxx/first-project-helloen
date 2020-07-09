@@ -236,13 +236,18 @@
 }
 
 @media (min-width: 1680px) {
+    .why-we{
+        top: -178px;
+        width: 95%;
+
+    }
     .why-we__list__item {
-        max-width: 320px;
+        max-width: 340px;
         margin: 0 20px;
     }
     .why-we__list {
         height: 350px;
-        width: 1400px;
+        max-width: 90%;
         flex-grow: 1;
         margin: 0 auto;
     }
