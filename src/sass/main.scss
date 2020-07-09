@@ -2,11 +2,20 @@
  * Все паршалы импортировать в этот файл
  */
 
+@import "container.scss";
 @import "fonts.scss";
 @import "normalize.scss";
-@import "base.scss";
+// @import 'base.scss';
 @import "header.scss";
-@import "./components/hero.scss";
+@import "components/hero.scss";
+@import "components/problems.scss";
+@import "components/how-we-work.scss";
 @import "our-program.scss";
+<<<<<<< HEAD
 @import "teacher.scss";
 @import 'registration.scss';
+=======
+@import "why-we.scss";
+@import "components/slider.scss";
+@import "footer.scss";
+>>>>>>> dev
