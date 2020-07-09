@@ -33,7 +33,7 @@
 .footer__tel {
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Montserrat-Bold', sans-serif;
   color: #000;
   padding-bottom: 2px;
@@ -80,76 +80,6 @@
   justify-content: center;
 }
 @media (min-width: 766px) {
-  .top {
-    height: 550px;
-  }
-
-  .why-we__list__item__advantages {
-    font-size: 17px;
-  }
-
-  .why-we__title {
-    text-align: center;
-    font-size: 26px;
-    width: 100%;
-  }
-
-  .why-we__list__item {
-    max-width: 300px;
-    margin: 0 20px;
-    padding: 5px;
-    margin-top: 5.5px;
-  }
-
-  .why-we__list {
-    padding: 0 10px 0 30px;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 80px;
-    margin-top: 40px;
-  }
-
-  .teacher {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .teacher__png {
-    width: 246px;
-    height: 320px;
-    display: block;
-  }
-
-  .teacher__title {
-    width: 20%;
-  }
-
-  .teacher__name-list {
-    width: 50%;
-    margin-top: 45px;
-  }
-
-  .teacher__list {
-    margin-left: 15px;
-  }
-
-  .teacher__name {
-    margin-left: 20px;
-    font-size: 20px;
-  }
-
-  .teacher__h3 {
-    font-size: 24px;
-  }
-
-  .teacher__name-list {
-    margin-left: 60px;
-  }
-
   .footer {
     height: 190px;
     width: 100%;
@@ -185,13 +115,13 @@
     text-align: start;
     margin-left: -5%;
   }
-
+  
   .footer__tel::after {
     content: '';
     border-left: 1px solid #e0e0e0;
     margin-left: 30px;
   }
-
+  
   .footer-bottom {
     width: 100%;
     padding-left: 8%;
