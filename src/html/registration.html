@@ -12,22 +12,24 @@
       <span class="registration__header--color">бесплатном занятии.</span> С
       вами свяжется консультант и ответит на вопросы.
     </p>
-    <form class="registration__form" id="registration-form" method="GET">
+    <form class="registration__form" id="registration-form" method="POST">
       <input
         class="registration__input-name"
         type="text"
         placeholder="Имя*"
         required
+        id="name"
       />
       <input
         class="registration__input-tel"
         type="tel"
         placeholder="Телефон*"
         required
+        id="tel"
       />
-
-      <button class="registration__button" type="submit">
-        Хочу на бесплатное занятие
+      <input type="submit" value="Хочу на бесплатное занятие" class="registration__button" />
+      <!-- <button class="registration__button" type="submit"> -->
+        
       </button>
     </form>
   </div>
