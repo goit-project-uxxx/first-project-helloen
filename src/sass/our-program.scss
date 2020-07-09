@@ -284,12 +284,9 @@ li {
     width: 97%;
     font-size: 19px;
     padding-top: 14px;
-<<<<<<< HEAD
-    padding-left: 39px;
-=======
     padding-left: 0px;
+  }
 
->>>>>>> dev
     &::after {
       display: none;
     }
@@ -357,7 +354,7 @@ li {
         url('../images/pic_1280@2x.jpg') no-repeat;
     }
   }
-}
+
 
 @media (min-width: 1680px) {
   .program-title {
