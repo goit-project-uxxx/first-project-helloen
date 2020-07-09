@@ -22,17 +22,25 @@ li {
     margin: 0 auto;
     margin-top: 24px;
     position: relative;
-  }
+    transition: box-shadow 0.2s ease-in-out;
 
+    &:hover {
+      box-shadow: inset 0px 0px 19px 0px rgba(191, 191, 191, 1);
+    }
+  }
+  .program__picture_hover {
+    transition: box-shadow 0.2s ease-in-out;
+
+    box-shadow: 0px 0px 19px 0px rgba(191, 191, 191, 1);
+  }
   .program__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 35px;
-
-    &:nth-child(2) {
-      margin-bottom: 25px;
-    }
+    // &:nth-child(2) {
+    //   margin-bottom: 25px;
+    // }
   }
 
   .program-title {
@@ -72,7 +80,7 @@ li {
       width: 2px;
       background-color: #546264;
       position: absolute;
-      left: calc(50% - 79px);
+      left: calc(50% - 83px);
       top: 15px;
       z-index: 5;
     }
@@ -88,7 +96,7 @@ li {
     text-transform: uppercase;
     line-height: 1.944;
     letter-spacing: 0.1em;
-    margin-left: 30px;
+    margin-left: 19px;
 
     &::before {
       content: "";
@@ -96,7 +104,7 @@ li {
       margin-right: 20px;
       width: 10px;
       height: 10px;
-      left: -38px;
+      left: -37px;
       top: calc(50% - 5px);
       border-radius: 50%;
       background-color: #ff6b08;
@@ -119,7 +127,7 @@ li {
     height: 180px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../images/pic_mobile.jpg);
     position: absolute;
-    right: calc(50% - 160px);
+    right: 0;
     top: 1417px;
   }
 
@@ -153,7 +161,7 @@ li {
     margin-left: 0;
 
     &:before {
-      left: calc(50% - 249px);
+      left: calc(50% - 253px);
     }
   }
 
@@ -207,7 +215,7 @@ li {
       url(../images/pic_tablet.jpg) no-repeat;
     position: absolute;
     background-size: contain;
-    right: calc(50% - 379px);
+    right: 0;
     top: 800px;
   }
   @media (min-resolution: 192dpi) {
@@ -218,7 +226,7 @@ li {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .our_program__line {
     display: block;
     border-left: none;
@@ -243,9 +251,9 @@ li {
     text-align: left;
   }
 
-  .our_program__conteiner {
+  .our_program__container {
     width: 100%;
-    max-width: 1500px;
+    // max-width: 1500px;
     margin: 0 auto;
   }
 
@@ -264,11 +272,10 @@ li {
   }
 
   .program__header-item {
-    width: 71%;
+    width: 100%;
     font-size: 19px;
     padding-top: 14px;
-    padding-left: 0px;
-
+    padding-left: 39px;
     &::after {
       display: none;
     }
@@ -277,7 +284,7 @@ li {
       margin-right: 0;
       width: 17px;
       height: 17px;
-      left: -3px;
+      left: 36px;
       top: calc(50% - 55px);
       border-radius: 50%;
       background-color: #ff6b08;
@@ -287,9 +294,6 @@ li {
 
   .program__header-semester {
     font-size: 18px;
-    width: 100%;
-    display: flex;
-    justify-content: start;
     padding-left: 55px;
     padding-top: 18px;
     margin: 0;
@@ -300,7 +304,7 @@ li {
     font-size: 19px;
     line-height: 1.618;
   }
-  
+
   .semester__item--min-font {
     font-size: 15px;
   }
@@ -316,13 +320,12 @@ li {
   }
 
   .program-picture {
-    width: 550px;
+    width: 543px;
     height: 350px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
       url(../images/pic_1280.jpg) no-repeat;
     position: absolute;
-    left: calc(50% - 650px);
-    left: calc(50% - 655px);
+    left: 0;
     top: 559px;
   }
   @media (min-resolution: 192dpi) {
@@ -349,7 +352,6 @@ li {
   }
 
   .program__header-item {
-    width: 100%;
     padding-top: 0;
     padding-left: 76px;
     display: block;
@@ -371,22 +373,10 @@ li {
   .semester__list {
     padding-left: 97px;
   }
-  
+
   .program__header-semester {
     padding-left: 97px;
     padding-top: 6px;
-  }
-
-  .program-picture {
-    width: 544px;
-    height: 376px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-      url(../images/pic_1680.jpg) no-repeat;
-    position: absolute;
-    background-size: contain;
-    left: calc(50% - 650px);
-    left: calc(50% - 655px);
-    top: 559px;
   }
 
   .program-picture {
@@ -396,7 +386,7 @@ li {
       url(../images/pic_1680.jpg) no-repeat;
     position: absolute;
     background-size: contain;
-    left: calc(50% - 838px);
+    left: 0;
     top: 675px;
   }
   @media (min-resolution: 192dpi) {
