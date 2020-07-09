@@ -1,6 +1,3 @@
-@import "normalize.scss";
-@import "base.scss";
-
 .top {
     min-width: 320px;
     height: 550px;
@@ -32,12 +29,13 @@
 }
 .why-we__list {
     background: #fff;
+    margin-top: 45px;
     padding: 0 25px;
     box-shadow: 0px 20px 0px 0px #fbfbfb;
 }
 .why-we__list__item__h3 {
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 15px;
     font-family: "Montserrat-Bold", sans-serif;
     color: #ff8939;
@@ -74,7 +72,8 @@
     width: 50%;
     margin-top: 45px;
 }
-.teacher {
+.teacher.link {
+    color: #ff6b08;
 }
 .teacher__list {
     margin-left: 15px;
@@ -105,7 +104,7 @@
         max-width: 300px;
         margin: 0 20px;
         padding: 5px;
-        margin-top: 5.5px;
+        margin-top: 30px;
     }
 
     .why-we__list {
@@ -119,15 +118,21 @@
     }
 }
 @media (min-width: 1278px) {
-    .why-we__list__item {
-        max-width: 320px;
-        margin: 0 20px;
-    }
+    // .why-we__list__item {
+    //     max-width: 320px;
+    //     margin: 0 20px;
+    //     padding: 20px;
+    // }
     .why-we__list {
-        height: 220px;
-    }
+      
+        width: 1200px;
+        margin: 0 auto;
+       
+       }
+      .why-we__list__item{ margin-top: 30px;}
     .why-we__title {
         font-size: 42px;
+        margin-bottom: 0;
     }
     .why-we__list__item__advantages {
         font-size: 19px;
@@ -147,5 +152,8 @@
     }
     .why-we__list__item__advantages {
         font-size: 21px;
+    }
+    .teacher {
+        justify-content: center;
     }
 }
