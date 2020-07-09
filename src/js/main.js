@@ -23,7 +23,7 @@ closeBtn.onclick = function () {
   toogleBtn.classList.toggle('toggleBtn_hiden');
   logo_hiden.classList.toggle('logo-hiden');
 };
-let closeBtncons = document.getElementById('consultation_btn');
+let closeBtncons = document.getElementById('consultation_btn_close');
 
 closeBtncons.onclick = function () {
   let element = document.getElementById('toogle_navigation');
