@@ -1,0 +1,194 @@
+@media (min-width: 320px) {
+  .registration {
+    background: url('../images/registration_bg_mobile.jpg') no-repeat;
+    background-size: cover;
+  }
+  @media (min-resolution: 192dpi) {
+    .registration {
+      background: url('../images/registration_bg_mobile@2x.jpg') no-repeat;
+      background-size: cover;
+    }
+  }
+  .registration__box {
+    height: 540px;
+    padding-top: 52px;
+  }
+  .registration__header {
+    //   margin-top: 50px;
+    width: 88%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Montserrat-Bold';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.86;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .registration__header--color {
+    color: #ff6b08;
+  }
+  .registration__description {
+    margin: 0 auto;
+    margin-top: 19px;
+    font-size: 11px;
+    font-family: 'Montserrat-Bold';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.818;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+  .registration__form {
+    margin-top: 26px;
+  }
+  .registration__input-name,
+  .registration__input-tel {
+    margin: 0 auto;
+    display: block;
+    max-width: 280px;
+    width: 100%;
+    padding-left: 20px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 13px;
+    font-family: 'Montserrat-Bold';
+    color: #fff;
+
+    &::placeholder {
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .registration__input-name {
+    margin-bottom: 20px;
+  }
+  .registration__button {
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 55px;
+    background: #ff6b08;
+    font-size: 11px;
+    font-family: 'Tahoma';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.12em;
+  }
+}
+@media (min-width: 768px) {
+  .registration {
+    background: url('../images/registration_bg_tablet.jpg') no-repeat;
+    background-size: cover;
+  }
+  @media (min-resolution: 192dpi) {
+    .registration {
+      background: url('../images/registration_bg_tablet@2x.jpg') no-repeat;
+
+      background-size: cover;
+    }
+  }
+  .registration__header {
+    font-size: 22px;
+  }
+  .registration__description {
+    width: 70%;
+    font-size: 15px;
+    margin-top: 16px;
+    line-height: 1.518;
+  }
+  .registration__form {
+    margin-top: 37px;
+  }
+  .registration__input-name,
+  .registration__input-tel {
+    max-width: 400px;
+  }
+  .registration__button {
+    margin-top: 32px;
+  }
+  .registration__box {
+    height: 532px;
+  }
+}
+@media (min-width: 1280px) {
+  .registration {
+    background: url('../images/registration_bg_1280.jpg') no-repeat;
+    background-size: cover;
+  }
+  @media (min-resolution: 192dpi) {
+    .registration {
+      background: url('../images/registration_bg_1280@2x.jpg') no-repeat;
+      background-size: cover;
+    }
+  }
+  .registration__header {
+    font-size: 38px;
+    line-height: 1.36;
+  }
+  .registration__box {
+    height: 752px;
+    padding-top: 74px;
+  }
+  .registration__description {
+    width: 49%;
+    font-size: 18px;
+    margin-top: 39px;
+    line-height: 1.518;
+  }
+  .registration__form {
+    margin-top: 48px;
+  }
+  .registration__input-name,
+  .registration__input-tel {
+    max-width: 625px;
+    height: 70px;
+    padding-left: 25px;
+    &::placeholder {
+      font-size: 18px;
+      letter-spacing: 0.2em;
+    }
+  }
+  .registration__input-name {
+    margin-bottom: 29px;
+  }
+  .registration__button {
+    margin-top: 59px;
+    width: 350px;
+    height: 70px;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1680px) {
+  .registration {
+    background: url('../images/registration_bg_1680.jpg') no-repeat;
+    background-size: cover;
+  }
+  @media (min-resolution: 192dpi) {
+    .registration {
+      background: url('../images/registration_bg_1680@2x.jpg') no-repeat;
+      background-size: cover;
+    }
+  }
+  .registration__box {
+    height: 844px;
+    padding-top: 117px;
+  }
+  .registration__header {
+    width: 79%;
+  }
+  .registration__description {
+    width: 70%;
+    margin-top: 55px;
+    font-size: 25px;
+  }
+}
