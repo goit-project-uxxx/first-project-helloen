@@ -3,12 +3,13 @@
     margin: 0 auto;
     width: 100%;
     position: absolute;
-    top: 100px;
+    // top: 100px;
+    top: calc(50% - 232px);
   }
 
   .problems {
     background-color: black;
-    padding: 320px 0;
+    padding: 263px 0;
     position: relative;
   }
 
@@ -25,6 +26,7 @@
     font-family: 'Montserrat', sans-serif;
     background: transparent;
     margin: 0 20px;
+    margin-bottom: 25px;
     line-height: 30px;
   }
 
@@ -78,6 +80,8 @@
     margin: 0 auto;
     width: 100%;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     top: 100px;
   }
 
@@ -117,7 +121,6 @@
     margin: 0 auto;
     background-color: #fff;
     width: 95%;
-    max-width: 1268px;
   }
 
   .problems__list {
@@ -274,11 +277,11 @@
     color: #fff;
     font-weight: bold;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
+    font-family: 'Montserrat-Bold', sans-serif;
+
     width: 800px;
     margin-bottom: 40px;
-    margin-left: 10%;
+    margin-left: 0;
   }
 
   .problems_icon {
