@@ -54,7 +54,7 @@ width: 100%;
 margin-bottom: 55px;
 }
 .registration-form__button {
-border: 0;
+border: none;
 color: #fff;
 font-weight: 600;
 text-transform: uppercase;
@@ -64,6 +64,7 @@ cursor: pointer;
 position: relative;
 z-index: 1;
 background-color:#ff6b08;
+
 }
 .registration-form__button:hover {
  box-shadow:0 0 14px 0 rgba(0,0,0,.75);
