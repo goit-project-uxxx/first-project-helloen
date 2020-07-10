@@ -7,9 +7,9 @@
     color: #ff6b08;
   }
 
-  // .testimonials {
-  //   text-align: center;
-  // }
+  .testimonials {
+    padding-bottom: 75px;
+  }
 
   .testimonials__title {
     padding: 48px 28px 20px;
@@ -33,28 +33,19 @@
     padding: 22px 25px;
   }
 
-  .slide-content__photo {
+  .slide-content__student {
     margin: 0;
-    position: relative;
-    padding-bottom: 25px;
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 85%;
-      left: 50%;
-      background-repeat: no-repeat;
-      transform: translate(-40%);
-      width: 20px;
-      height: 20px;
-    }
   }
 
-  .tonya-kucherovskaya {
-    &::after {
-      content: '';
-      background-image: url(../../images/icons/vk/vk.svg);
-    }
+  // .slide-content__photo {
+  //   width: 80px;
+  //   height: 80px;
+  // }
+
+  .slide-content__social-icon {
+    width: 25px;
+    height: 25px;
+    margin: 20px 0 10px;
   }
 
   .slide-description__title {
@@ -143,7 +134,6 @@
     transition: margin-left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
     width: 400%;
     line-height: 0;
-    // height: 350px;
   }
 
   #slides .slide {
@@ -179,7 +169,7 @@
     background: url(../../images/icons/right-arrow.svg) no-repeat;
     position: absolute;
     right: 20px;
-    top: 90%;
+    top: 91.5%;
     display: block;
     fill: #ff6b08;
   }
@@ -191,7 +181,7 @@
     background: url(../../images/icons/left-arrow.svg) no-repeat;
     position: absolute;
     left: 20px;
-    top: 90%;
+    top: 91.5%;
     display: block;
     fill: #ff6b08;
   }
@@ -240,7 +230,7 @@
     padding-bottom: 20px;
   }
 
-  .slide-content__photo {
+  .slide-content__student {
     margin: 40px 44px 0 12px;
   }
 
@@ -248,11 +238,6 @@
     display: inline;
   }
 
-  .slide-content__photo::after {
-    content: '';
-    top: 45%;
-    left: 50%;
-  }
 
   #slide1:checked ~ #controls label:nth-child(2),
   #slide2:checked ~ #controls label:nth-child(3),
@@ -285,11 +270,6 @@
     margin-bottom: 36px;
   }
 
-  .slide-content__photo::after {
-    content: '';
-    top: 60%;
-    left: 50%;
-  }
 
   .slide-description__title {
     font-size: 25px;
@@ -304,8 +284,8 @@
     font-weight: 500;
   }
   
-  .slide-content__photo {
-    margin: 40px 34px 0 12px;
+  .slide-content__student {
+    margin: 24px 34px 0 12px;
   }
 
   #slide1:checked ~ #controls label:nth-child(2),
