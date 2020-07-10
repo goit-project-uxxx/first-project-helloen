@@ -99,7 +99,7 @@
 
   #slider {
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
     max-width: 100%;
     text-align: center;
   }
@@ -276,6 +276,10 @@
 }
 
 @media (min-width: 1280px) {
+  .slider-holder {
+    margin: 0 60px;
+  }
+
   .testimonials__title {
     font-size: 42px;
     margin-bottom: 36px;

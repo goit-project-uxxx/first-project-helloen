@@ -1,20 +1,12 @@
-
 @media (min-width: 320px) {
-  .how-working_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-
-    .how-working_box {
-      width: 290px;
-      height: 270px;
-      box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
-      margin: 0 auto;
-      padding: 30px 22px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
+  .how-working_box {
+    width: 290px;
+    height: 270px;
+    box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+    margin: 0 auto;
+    padding: 30px 22px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   .how-working__icon {
@@ -58,7 +50,9 @@
     fill: #fff;
   }
 
-  .how-working_box:hover .how-workig-items::after {
+  .how-working_box:hover .how-workig-items::after,
+  .how-working_box:hover .how-working-text {
+    border-color: #fff;
     color: #fff;
   }
 
@@ -72,14 +66,14 @@
     position: relative;
   }
 
-
-  .container_how-we {
-    width: 280px;
-    // text-align: center;
-    margin: 0 auto;
-  }
 }
 
+@media (min-width: 600px) {
+  .how-working_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 @media (min-width: 768px) {
   .how-working_container {
     display: flex;
@@ -112,16 +106,12 @@
     fill: #fff;
   }
 
-  .how-working_box:hover .how-workig-items::after {
-    color: #fff;
-  }
-
   .how-working_title {
     font-size: 26px;
     text-align: center;
     margin-bottom: 40px;
   }
-  
+
   .container_how-we {
     width: 768px;
     margin: 0 auto;
@@ -174,24 +164,12 @@
     color: #fff;
   }
 
-  .how-working_box:hover .how-working__icon {
-    fill: #fff;
-  }
-
-  .how-working_box:hover .how-workig-items::after {
-    color: #fff;
-  }
-
   .how-working_title {
     font-size: 42px;
     text-align: left;
     margin-bottom: 55px;
   }
 
-  .container_how-we {
-    width: 1210px;
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: 1680px) {
@@ -228,7 +206,7 @@
     font-size: 26px;
     margin-bottom: 40px;
   }
-  
+
   .how-working-text {
     line-height: 40px;
     text-align: center;
@@ -240,23 +218,10 @@
     color: #fff;
   }
 
-  .how-working_box:hover .how-working__icon {
-    fill: #fff;
-  }
-
-  .how-working_box:hover .how-workig-items::after {
-    color: #fff;
-  }
-
   .how-working_title {
     font-size: 42px;
     text-align: left;
     margin: 0 auto;
   }
 
-  .container_how-we {
-    width: 1340px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
 }
