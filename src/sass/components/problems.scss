@@ -85,6 +85,9 @@
     background: url('../../images/fire-table.png') #000;
     padding: 170px 0;
     position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .colortext {
@@ -100,6 +103,8 @@
     background: transparent;
     margin: 0 auto;
     width: 688px;
+    margin-bottom: 20px;
+    margin-left: 3%;
   }
 
   .problems_icon {
@@ -111,23 +116,22 @@
   .problems_container {
     margin: 0 auto;
     background-color: #fff;
-    width: 688px;
+    width: 95%;
+    max-width: 1268px;
   }
 
   .problems__list {
-    // text-align: left;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    // justify-content: center;
     justify-content: space-between;
-    padding: 30px 78px 30px 110px;
-    width: 688px;
+    padding: 10px 50px 30px 60px;
+    max-width: 1268px;
   }
 
   .problems__list__item {
     list-style-type: none;
-    width: 218px;
+    width: 45%;
   }
 
   .problems__list__item__h3 {

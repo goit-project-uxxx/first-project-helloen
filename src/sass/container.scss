@@ -1,18 +1,23 @@
 @media (min-width: 320px) {
   .container {
     max-width: 280px;
+    max-width: 88%;
     margin: 0 auto;
   }
 }
 @media (min-width: 768px) {
   .container {
     max-width: 688px;
+    max-width: 88%;
+
     margin: 0 auto;
   }
 }
 @media (min-width: 1280px) {
   .container {
     max-width: 1210px;
+    max-width: 95%;
+
     margin: 0 auto;
   }
 }

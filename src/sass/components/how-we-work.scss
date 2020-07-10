@@ -1,11 +1,4 @@
 @media (min-width: 320px) {
-  .how-working_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
   .how-working_box {
     width: 290px;
     height: 270px;
@@ -57,7 +50,9 @@
     fill: #fff;
   }
 
-  .how-working_box:hover .how-workig-items::after {
+  .how-working_box:hover .how-workig-items::after,
+  .how-working_box:hover .how-working-text {
+    border-color: #fff;
     color: #fff;
   }
 
@@ -70,21 +65,28 @@
     display: block;
     position: relative;
   }
-
-  .container_how-we {
-    width: 280px;
-    // text-align: center;
-    margin: 0 auto;
-  }
 }
 
+@media (min-width: 600px) {
+  .how-working_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 @media (min-width: 768px) {
+  .how-we_work {
+    margin-top: 150px;
+  }
   .how-working_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    max-width: 850px;
     margin: 0 auto;
+  }
+  .how-working_box {
+    width: 350px;
   }
 
   .how-workig-items {
@@ -110,10 +112,6 @@
     fill: #fff;
   }
 
-  .how-working_box:hover .how-workig-items::after {
-    color: #fff;
-  }
-
   .how-working_title {
     font-size: 26px;
     text-align: center;
@@ -127,17 +125,20 @@
   }
 }
 @media (min-width: 1280px) {
+  .how-we_work {
+    max-width: 1600px;
+  }
   .how-working_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
-    width: 1210px;
+    max-width: 1670px;
   }
 
   .how-working_box {
-    width: 390px;
+    width: 340px;
     height: 340px;
     margin: 0 auto;
     padding: 40px 22px 35px;
@@ -172,25 +173,10 @@
     color: #fff;
   }
 
-  .how-working_box:hover .how-working__icon {
-    fill: #fff;
-  }
-
-  .how-working_box:hover .how-workig-items::after {
-    color: #fff;
-  }
-
   .how-working_title {
     font-size: 42px;
     text-align: left;
     margin-bottom: 55px;
-  }
-  .how-we_work {
-    margin-top: 150px;
-  }
-  .container_how-we {
-    width: 1210px;
-    margin: 0 auto;
   }
 }
 
@@ -240,28 +226,11 @@
     color: #fff;
   }
 
-  .how-working_box:hover .how-working__icon {
-    fill: #fff;
-  }
-
-  .how-working_box:hover .how-workig-items::after {
-    color: #fff;
-  }
-
   .how-working_title {
     font-size: 42px;
     text-align: left;
     margin: 0 auto;
     margin-top: 210px;
     margin-bottom: 50px;
-  }
-
-  .container_how-we {
-    width: 1340px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-  .how-we_work {
-    margin-top: 100px;
   }
 }
