@@ -1,266 +1,306 @@
 @media (min-width: 320px) {
-    .why-we {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        text-align: start;
-        justify-content: start;
-        margin: 0 auto;
-        top: -377px;
-        margin: 0 20px;
-    }
-    .why-we__title {
-        color: #fff;
-        width: 130px;
-        font-weight: bold;
-        font-size: 20px;
-        font-family: "Montserrat-Bold", sans-serif;
-        background: transparent;
-        margin-bottom: 20px;
-    }
-    .why-we__list__item {
-        list-style: none;
-        width: 100%;
-    }
-    .why-we__list {
-        background: #fff;
-        padding: 0 25px;
+  .why-we {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    margin: 0 auto;
+    top: -377px;
+    margin: 0 20px;
+  }
 
-        box-shadow: 0px 20px 0px 0px #fbfbfb;
-    }
-    .why-we__list__item__h3 {
-        font-weight: bold;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-size: 15px;
-        font-family: "Montserrat-Bold", sans-serif;
-        color: #ff8939;
-    }
-    .why-we__list__item__h3::before {
-        content: "";
-        display: inline-block;
-        height: 1.5px;
-        background: #ff6b08;
-        min-width: 20px;
-        margin: 7px 6px 5px 0;
-    }
-    .why-we__list__item__advantages {
-        font-weight: bold;
-        margin-top: 0px;
-        font-size: 16px;
-        font-family: "Montserrat-Bold", sans-serif;
-    }
-    .teacher {
-        margin-top: 50px;
-    }
-    .teacher__h3 {
-        font-weight: bold;
-        font-size: 21px;
-        font-family: "Montserrat-Bold", sans-serif;
-        margin-bottom: 20px;
-    }
-    .teacher__photo {
-        width: 100%;
-        height: auto;
-    }
-    .teacher__name {
-        font-weight: bold;
-        font-size: 16px;
-        font-family: "Montserrat-Bold", sans-serif;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .teacher__list {
-        margin: 0;
-        padding: 0;
-    }
-    .teacher__list::after {
-        content: "";
-        display: block;
-        height: 1.5px;
-        background: #ff6b08;
-        width: 25px;
-        margin: 7px 6px 20px 20px;
-    }
+  .why-we__title {
+    color: #fff;
+    width: 130px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    background: transparent;
+    margin-bottom: 20px;
+  }
 
-    .teacher__name::after {
-        content: "";
-        display: block;
-        height: 1.5px;
-        background: #d1d1d1;
-        min-width: 280px;
-        margin: 7px 6px 5px 0;
-    }
-    .teacher__list__item__span {
-        margin-left: 20px;
-        display: block;
-        font-weight: bold;
-        font-size: 14px;
-        font-family: "Montserrat-Bold", sans-serif;
-        padding-left: 20px;
-    }
+  .why-we__list__item {
+    list-style: none;
+    width: 100%;
+  }
 
-    .teacher__list__item {
-        list-style: none;
-        position: relative;
-        margin-bottom: 20px;
-    }
-    .teacher__list__item::before {
-        content: "";
-        background-image: url("../images/noun_Check_2422424.svg");
-        width: 22px;
-        position: absolute;
-        top: 0;
-        left: 0px;
-        height: 22px;
-        display: inline-block;
-        background-size: cover;
-    }
-    .teacher__list__description {
-        list-style: none;
-        padding-left: 20px;
-        padding-right: 20px;
-        color: #858585;
-    }
-    .teacher__list__item__description {
-        margin-bottom: 20px;
-    }
-    .teacher__link {
-        color: #ff7518;
-        margin-left: 20px;
-        font-size: 14px;
-    }
+  .why-we__list {
+    background: #fff;
+    padding: 0 25px;
+
+    box-shadow: 0px 20px 0px 0px #fbfbfb;
+  }
+
+  .why-we__list__item__h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #ff8939;
+  }
+
+  .why-we__list__item__h3::before {
+    content: '';
+    display: inline-block;
+    height: 1.5px;
+    background: #ff6b08;
+    min-width: 20px;
+    margin: 7px 6px 5px 0;
+  }
+
+  .why-we__list__item__advantages {
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'Montserrat-Bold', sans-serif;
+  }
+
+  .teacher {
+    margin-top: 50px;
+  }
+
+  .teacher__h3 {
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .teacher__photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .teacher__name {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .teacher__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .teacher__list::after {
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: #ff6b08;
+    width: 25px;
+    margin: 7px 6px 20px 20px;
+  }
+
+  .teacher__name::after {
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: #d1d1d1;
+    min-width: 280px;
+    margin: 7px 6px 5px 0;
+  }
+
+  .teacher__list__item__span {
+    margin-left: 20px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    padding-left: 20px;
+  }
+
+  .teacher__list__item {
+    list-style: none;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .teacher__list__item::before {
+    content: '';
+    background-image: url('../images/noun_Check_2422424.svg');
+    width: 22px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 22px;
+    display: inline-block;
+    background-size: cover;
+  }
+
+  .teacher__list__description {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #858585;
+  }
+  
+  .teacher__list__item__description {
+    margin-bottom: 20px;
+  }
+
+  .teacher__link {
+    color: #ff7518;
+    margin-left: 20px;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {
-    .why-we {
-        top: -200px;
-    }
-    .why-we__list__item__advantages {
-        font-size: 17px;
-    }
-    .why-we__title {
-        text-align: center;
-        font-size: 26px;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .why-we__list__item {
-        max-width: 300px;
-        margin: 0 20px;
-        padding: 5px;
-        margin-top: 5.5px;
-    }
+  .why-we {
+    top: -200px;
+  }
 
-    .why-we__list {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 1050px;
-        margin-bottom: 80px;
-        margin-top: 40px;
-        margin: 0 auto;
-        width: 95%;
-    }
-    .teacher {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 90px;
-        width: 100%;
-    }
-    .teacher__photo {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    .teacher__title {
-        width: 30%;
-    }
-    .teacher__name-list {
-        width: 43%;
-        margin-top: 25px;
-        margin-left: 30px;
-    }
+  .why-we__list__item__advantages {
+    font-size: 17px;
+  }
 
-    .teacher__list {
-        margin-left: 15px;
-    }
-    .teacher__name {
-        margin-left: 20px;
-        font-size: 20px;
-    }
-    .teacher__h3 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+  .why-we__title {
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .why-we__list__item {
+    max-width: 25%;
+    margin: 0 20px;
+    padding: 5px;
+    margin-top: 5.5px;
+  }
+
+  .why-we__list {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1050px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .teacher {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+  }
+
+  .teacher__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .teacher__title {
+    width: 30%;
+  }
+
+  .teacher__name-list {
+    width: 43%;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+
+  .teacher__list {
+    margin-left: 15px;
+  }
+
+  .teacher__name {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .teacher__h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 1280px) {
-    .why-we {
-        top: -377px;
-    }
-    .why-we__list__item {
-        max-width: 280px;
-        margin: 0 20px;
-    }
-    .why-we__list {
-        height: 310px;
-        margin: 0 auto;
-        width: 95%;
-    }
-    .why-we__title {
-        font-size: 32px;
-        margin-bottom: 30px;
-    }
-    .why-we__list__item__advantages {
-        font-size: 20px;
-    }
-    .teacher {
-        justify-content: center;
-    }
-    .teacher__h3 {
-        margin-top: 40px;
-        padding-bottom: 10px;
-    }
-    .teacher__title {
-        width: 20%;
-    }
-    .teacher__name-list {
-        margin-top: 70px;
-        width: 60%;
-    }
-    .teacher__photo {
-        width: 100%;
-        height: auto;
-    }
+  .why-we {
+    top: -377px;
+  }
+  
+  .why-we__list__item {
+    max-width: 280px;
+    margin: 0 20px;
+  }
+
+  .why-we__list {
+    height: 310px;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .why-we__title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .why-we__list__item__advantages {
+    font-size: 20px;
+  }
+
+  .teacher {
+    justify-content: center;
+  }
+
+  .teacher__h3 {
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .teacher__title {
+    width: 20%;
+  }
+
+  .teacher__name-list {
+    margin-top: 70px;
+    width: 60%;
+  }
+
+  .teacher__photo {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 1680px) {
-    .why-we {
-        top: -178px;
-        width: 95%;
-    }
-    .why-we__list__item {
-        max-width: 340px;
-        margin: 0 20px;
-    }
-    .why-we__list {
-        height: 350px;
-        max-width: 90%;
-        flex-grow: 1;
-        margin: 0 auto;
-    }
-    .why-we__title {
-        font-size: 58px;
-    }
-    .why-we__list__item__advantages {
-        font-size: 23px;
-    }
-    .teacher__photo {
-        width: 100%;
-        height: auto;
-    }
+  .why-we {
+    top: -178px;
+    width: 95%;
+  }
+
+  .why-we__list__item {
+    max-width: 340px;
+    margin: 0 20px;
+  }
+
+  .why-we__list {
+    height: 350px;
+    max-width: 90%;
+    flex-grow: 1;
+    margin: 0 auto;
+  }
+
+  .why-we__title {
+    font-size: 58px;
+  }
+
+  .why-we__list__item__advantages {
+    font-size: 23px;
+  }
+  
+  .teacher__photo {
+    width: 100%;
+    height: auto;
+  }
 }
